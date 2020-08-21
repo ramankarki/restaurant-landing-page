@@ -2,4 +2,20 @@
   margin: 0;
   padding: 0; }
 
+header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .logo-container {
+    width: 80px; }
+    header .logo-container img {
+      width: 100%;
+      height: auto; }
+  header nav .toggle-button .bi {
+    transform: scale(4);
+    margin-right: 3.5rem;
+    color: #b9b913; }
+
 /*# sourceMappingURL=index.css.map */

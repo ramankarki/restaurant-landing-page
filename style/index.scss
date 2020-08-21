@@ -1,5 +1,35 @@
+$normal-text: #fffdfd;
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-container {
+        width: 80px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    nav {
+        .toggle-button {
+            .bi {
+                transform: scale(4);
+                margin-right: 3.5rem;
+                color: rgb(185, 185, 19);
+            }
+        }
+    }
+
+
 }
 
