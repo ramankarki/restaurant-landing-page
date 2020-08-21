@@ -1,6 +1,12 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  max-width: 1920px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif; }
 
 header {
   width: 100%;
@@ -13,9 +19,58 @@ header {
     header .logo-container img {
       width: 100%;
       height: auto; }
-  header nav .toggle-button .bi {
-    transform: scale(4);
-    margin-right: 3.5rem;
-    color: #b9b913; }
+  header nav {
+    position: relative; }
+    header nav .toggle-button {
+      width: 60px; }
+      header nav .toggle-button img {
+        width: 100%;
+        height: auto; }
+    header nav .nav-links {
+      position: absolute;
+      background-color: #ffee9a;
+      right: 0;
+      top: 30px;
+      width: 150px;
+      padding: 1rem 0;
+      display: none; }
+      header nav .nav-links .nav-item {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #dd7230;
+        padding: .5rem 1rem; }
+      header nav .nav-links a:focus,
+      header nav .nav-links a:active {
+        color: none; }
+
+nav:hover .nav-links {
+  display: block; }
+
+main {
+  font-size: 2.8rem;
+  color: #A9A9A9; }
+
+@media (min-width: 992px) {
+  header nav {
+    position: static; }
+    header nav .toggle-button {
+      display: none; }
+    header nav .nav-links {
+      display: block;
+      position: static;
+      width: 100%;
+      background-color: white;
+      padding: 0; }
+      header nav .nav-links .nav-item {
+        display: inline;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 0 1rem;
+        color: #f8c38e; }
+      header nav .nav-links .home {
+        color: #dd7230; }
+      header nav .nav-links .nav-item:hover {
+        border-bottom: 3px solid #dd7230; } }
 
 /*# sourceMappingURL=index.css.map */
