@@ -193,7 +193,7 @@ main {
             font-size: $normal;
             color: $darker-grey;
             text-align: center;
-            line-height: 1.6rem;
+            line-height: 1.8rem;
         }
 
         .special-dish-card {
@@ -209,7 +209,7 @@ main {
                 text-align: center;
                 font-size: $normal;
                 color: $darker-grey;
-                line-height: 1.6rem;
+                line-height: 1.8rem;
             }
 
             .special-dish-image {
@@ -221,6 +221,37 @@ main {
                     height: auto;
                     border-radius: 10rem;
                 }
+            }
+        }
+    }
+
+    .our-master-container {
+        margin-top: 5rem;
+        
+        .dishes {
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 10rem;
+            }
+        }
+        
+        .dishes-text {
+            width: 90%;
+            margin: auto;
+            h2 {
+                font-size: $sub-heading;
+                text-align: center;
+                line-height: 2.2rem;
+                margin: 2rem 0;
+            }
+
+            p {
+                font-size: $normal;
+                color: $darker-grey;
+                text-align: center;
+                line-height: 1.6rem;
+                margin: 2rem 0;
             }
         }
     }
@@ -333,6 +364,40 @@ main {
                 font-size: $normal;
                 cursor: pointer;
             }
+        }
+
+        .our-master-container {
+            width: 90%;
+            margin: auto;
+            margin-top: 5rem;
+
+            .our-master {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                height: 90vh;
+                
+                .dishes,
+                .dishes-text {
+                    flex: 1;
+                    max-width: 500px;
+                    margin: 2rem;
+                }
+
+                .dishes-text {
+                    h2 {
+                        font-size: $big;
+                    }
+
+                    p {
+                        text-align: left;
+                    }
+                }
+            }
+
+
+
         }
 
     }

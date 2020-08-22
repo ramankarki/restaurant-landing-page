@@ -118,7 +118,7 @@ main {
       font-size: 1rem;
       color: #707070;
       text-align: center;
-      line-height: 1.6rem; }
+      line-height: 1.8rem; }
     main .special-dish-container .special-dish-card {
       margin: 3rem; }
       main .special-dish-container .special-dish-card h3 {
@@ -130,7 +130,7 @@ main {
         text-align: center;
         font-size: 1rem;
         color: #707070;
-        line-height: 1.6rem; }
+        line-height: 1.8rem; }
       main .special-dish-container .special-dish-card .special-dish-image {
         width: 150px;
         margin: auto; }
@@ -138,6 +138,26 @@ main {
           width: 100%;
           height: auto;
           border-radius: 10rem; }
+  main .our-master-container {
+    margin-top: 5rem; }
+    main .our-master-container .dishes img {
+      width: 100%;
+      height: auto;
+      border-radius: 10rem; }
+    main .our-master-container .dishes-text {
+      width: 90%;
+      margin: auto; }
+      main .our-master-container .dishes-text h2 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2.2rem;
+        margin: 2rem 0; }
+      main .our-master-container .dishes-text p {
+        font-size: 1rem;
+        color: #707070;
+        text-align: center;
+        line-height: 1.6rem;
+        margin: 2rem 0; }
 
 @media (min-width: 576px) {
   main .jumbotron-container .mobile-food-image {
@@ -201,7 +221,26 @@ main {
     main .jumbotron-container aside p {
       transform: rotate(270deg);
       font-size: 1rem;
-      cursor: pointer; } }
+      cursor: pointer; }
+  main .our-master-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem; }
+    main .our-master-container .our-master {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      height: 90vh; }
+      main .our-master-container .our-master .dishes,
+      main .our-master-container .our-master .dishes-text {
+        flex: 1;
+        max-width: 500px;
+        margin: 2rem; }
+      main .our-master-container .our-master .dishes-text h2 {
+        font-size: 2rem; }
+      main .our-master-container .our-master .dishes-text p {
+        text-align: left; } }
 @media (min-width: 1200px) {
   header {
     padding: .5rem 2rem; }
