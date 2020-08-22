@@ -1,11 +1,12 @@
 $white: #fffdfd;
 $black: #323233;
 $dark-orange: #dd7230;
-$light-orange: #f8c38e;
+$light-orange: #ecab69;
 $dark-yellow: #f0c808;
 $light-yellow: #ffee9a;
 $light-grey: #DCDCDC;
 $dark-grey: #A9A9A9;
+$green: #5caa0d;
 $sub-title: 1.4rem;
 $sub-heading: 1.6rem;
 $normal: 1rem;
@@ -92,16 +93,28 @@ main {
     margin: auto;
     
     .jumbotron-container {
+        margin-top: 4rem;
+
         .jumbotron {
             p {
                 font-size: $normal;
-                line-height: 3rem;
                 color: $dark-grey;
+                margin: 1rem 0;
             }
 
             h1 {
                 font-size: $sub-heading;
                 color: $black;
+            }
+
+            .btn-primary {
+                margin: 2rem 0;
+                background-color: $green;
+                padding: .5rem 1rem;
+                border: 1px solid $green;
+                border-radius: .3rem;
+                color: $white;
+                font-weight: bold;
             }
         }
     }
@@ -119,21 +132,25 @@ main {
 
 
 @media (min-width: 992px) {
+}
+
+
+@media (min-width: 1200px) {
     header {
         nav {
             position: static;
-
+    
             .toggle-button {
                 display: none;
             }
-
+    
             .nav-links {
                 display: block;
                 position: static;
                 width: 100%;
                 background-color: white;
                 padding: 0;
-
+    
                 .nav-item {
                     display: inline;
                     font-weight: bold;
@@ -141,21 +158,17 @@ main {
                     margin: 0 1rem;
                     color: $light-orange;
                 }
-
+    
                 .home {
                     color: $dark-orange;
                 }
-
+    
                 .nav-item:hover {
                     color: $dark-orange;
                 }
             }
         }
     }
-}
-
-
-@media (min-width: 1200px) {
-
+    
 }
 
