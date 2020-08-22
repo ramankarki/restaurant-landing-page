@@ -8,11 +8,11 @@ $light-grey: #DCDCDC;
 $dark-grey: #A9A9A9;
 $green: #5caa0d;
 $dark-green: #438502;
-$sub-title: 1.4rem;
+$sub-title: 1.1rem;
 $sub-heading: 1.6rem;
 $normal: 1rem;
 $small: .8rem;
-$big: 2.8rem;
+$big: 2rem;
 
 
 
@@ -38,6 +38,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 999;
 
     .logo-container {
         width: 80px;
@@ -98,23 +99,40 @@ nav:hover .nav-links {
 
 main {
     font-size: 2.8rem;
-    width: 90%;
-    margin: auto;
     
     .jumbotron-container {
-        
+        position: relative;
+        height: 90vh;
+        background-image: url("/image/background-tab.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+
+        .dark-color {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background-color: black;
+            z-index: 2;
+            opacity: 0.6;
+        }
+
         .jumbotron {
-            margin-top: 5rem;
+            position: relative;
+            width: 90%;
+            margin: auto;
+            z-index: 3;
             p {
-                margin-top: 4rem;
                 font-size: $normal;
                 color: $dark-grey;
-                margin: 1rem 0;
+                line-height: 4rem;
             }
-
+            
             h1 {
                 font-size: $sub-heading;
                 color: $black;
+                color: white;
+                line-height: 2.2rem;
             }
 
             .btn-primary {
@@ -127,17 +145,73 @@ main {
                 font-weight: bold;
             }
         }
+
+        .jumbotron-image {
+            display: none;
+        }
     }
 }
 
 
 @media (min-width: 576px) {
+    main {
+        .jumbotron-container {
+            .jumbotron {
+                p {
+                    font-size: $sub-title;
+                }
 
+                h1 {
+                    font-size: $big;
+                }
+
+                .btn-primary {
+                    font-size: $sub-title;
+                }
+            }
+        }
+    }
 }
 
 
 @media (min-width: 768px) {
+    main {
+        .jumbotron-container {
+            position: static;
+            background-image: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 80%;
+            margin: auto;
+            margin-top: -2.5rem;
 
+            .dark-color {
+                display: none;
+            }
+
+            .jumbotron {
+                position: static;
+                flex: 1;
+
+
+                h1 {
+                    color: $black;
+                }
+            }
+
+            .jumbotron-image {
+                display: block;
+                flex: 1;
+                max-width: 450px;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        }
+    }
 }
 
 
@@ -160,7 +234,7 @@ main {
                 width: 100%;
                 background-color: white;
                 padding: 0;
-    
+                
                 .nav-item {
                     display: inline;
                     font-weight: bold;
@@ -172,7 +246,7 @@ main {
                 .home {
                     color: $dark-orange;
                 }
-    
+                
                 .nav-item:hover {
                     color: $dark-orange;
                 }
@@ -181,13 +255,13 @@ main {
                     display: none;
                 }
             }
-
+            
         }
-
+        
         .search-login-icon {
             display: block;
             display: flex;
-
+            
             .search-icon {
                 width: 20px;
                 margin-top: 2px;
@@ -195,21 +269,21 @@ main {
                 filter: invert(60%);
                 cursor: pointer;
             }
-
+            
             .human-icon {
                 width: 25px;
                 cursor: pointer;
             }
-
+            
             img {
                 width: 100%;
                 height: auto;
                 display: inline-block;
             }
-
+            
         }
     }
-
+    
     main {
         .jumbotron-container {
             .jumbotron {
