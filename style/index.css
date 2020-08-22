@@ -10,7 +10,8 @@ body {
 
 header {
   width: 100%;
-  padding: 1rem;
+  background-color: white;
+  padding: .5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -71,6 +72,6 @@ main {
       header nav .nav-links .home {
         color: #dd7230; }
       header nav .nav-links .nav-item:hover {
-        border-bottom: 3px solid #dd7230; } }
+        color: #dd7230; } }
 
 /*# sourceMappingURL=index.css.map */

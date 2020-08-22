@@ -28,7 +28,8 @@ body {
 
 header {
     width: 100%;
-    padding: 1rem;
+    background-color: white;
+    padding: .5rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +130,7 @@ main {
                 }
 
                 .nav-item:hover {
-                    border-bottom: 3px solid $dark-orange;
+                    color: $dark-orange;
                 }
             }
         }
