@@ -221,6 +221,7 @@ main {
 
 @media (min-width: 1200px) {
     header {
+        padding: .5rem 2rem;
         nav {
             position: static;
     
@@ -289,6 +290,7 @@ main {
             .jumbotron {
                 .btn-primary:hover {
                     background-color: $dark-green;
+                    cursor: pointer;
                 }
             }
         }
