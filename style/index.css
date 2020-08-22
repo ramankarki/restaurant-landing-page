@@ -151,13 +151,25 @@ main {
         font-size: 1.6rem;
         text-align: center;
         line-height: 2.2rem;
-        margin: 2rem 0; }
+        margin: 2rem 0 0 0; }
       main .our-master-container .dishes-text p {
         font-size: 1rem;
         color: #707070;
         text-align: center;
         line-height: 1.6rem;
         margin: 2rem 0; }
+  main .special-menu-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem; }
+    main .special-menu-container h2 {
+      font-size: 1.6rem;
+      text-align: center; }
+    main .special-menu-container p {
+      font-size: 1rem;
+      text-align: center;
+      color: #707070;
+      line-height: 1.6rem; }
 
 @media (min-width: 576px) {
   main .jumbotron-container .mobile-food-image {
@@ -222,6 +234,12 @@ main {
       transform: rotate(270deg);
       font-size: 1rem;
       cursor: pointer; }
+  main .special-menu-container {
+    margin-top: 5rem; }
+    main .special-menu-container h2 {
+      font-size: 2rem;
+      text-align: center; } }
+@media (min-width: 992px) {
   main .our-master-container {
     width: 90%;
     margin: auto;

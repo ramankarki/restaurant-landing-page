@@ -225,6 +225,7 @@ main {
         }
     }
 
+    // ----------------------------- our master container ---------------------
     .our-master-container {
         margin-top: 5rem;
         
@@ -243,7 +244,7 @@ main {
                 font-size: $sub-heading;
                 text-align: center;
                 line-height: 2.2rem;
-                margin: 2rem 0;
+                margin: 2rem 0 0 0;
             }
 
             p {
@@ -253,6 +254,24 @@ main {
                 line-height: 1.6rem;
                 margin: 2rem 0;
             }
+        }
+    }
+
+    // ------------------------ special menu container ----------------
+    .special-menu-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        h2 {
+            font-size: $sub-heading;
+            text-align: center;
+        }
+
+        p {
+            font-size: $normal;
+            text-align: center;
+            color: $darker-grey;
+            line-height: 1.6rem;
         }
     }
 
@@ -366,6 +385,22 @@ main {
             }
         }
 
+        .special-menu-container {
+            margin-top: 5rem;
+            h2 {
+                font-size: $big;
+                text-align: center;
+            }
+        }
+        
+
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    main {
         .our-master-container {
             width: 90%;
             margin: auto;
@@ -395,16 +430,8 @@ main {
                     }
                 }
             }
-
-
-
         }
-
     }
-}
-
-
-@media (min-width: 992px) {
     
 }
 
