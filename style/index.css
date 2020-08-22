@@ -58,7 +58,7 @@ main {
   font-size: 2.8rem;
   width: 90%;
   margin: auto; }
-  main .jumbotron-container {
+  main .jumbotron-container .jumbotron {
     margin-top: 5rem; }
     main .jumbotron-container .jumbotron p {
       margin-top: 4rem;
@@ -72,7 +72,7 @@ main {
       margin: 2rem 0;
       background-color: #5caa0d;
       padding: .5rem 1rem;
-      border: 1px solid #5caa0d;
+      border: none;
       border-radius: .3rem;
       color: #fffdfd;
       font-weight: bold; }
@@ -115,6 +115,9 @@ main {
     header .search-login-icon img {
       width: 100%;
       height: auto;
-      display: inline-block; } }
+      display: inline-block; }
+
+  main .jumbotron-container .jumbotron .btn-primary:hover {
+    background-color: #438502; } }
 
 /*# sourceMappingURL=index.css.map */

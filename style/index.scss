@@ -7,6 +7,7 @@ $light-yellow: #ffee9a;
 $light-grey: #DCDCDC;
 $dark-grey: #A9A9A9;
 $green: #5caa0d;
+$dark-green: #438502;
 $sub-title: 1.4rem;
 $sub-heading: 1.6rem;
 $normal: 1rem;
@@ -101,9 +102,9 @@ main {
     margin: auto;
     
     .jumbotron-container {
-        margin-top: 5rem;
         
         .jumbotron {
+            margin-top: 5rem;
             p {
                 margin-top: 4rem;
                 font-size: $normal;
@@ -120,7 +121,7 @@ main {
                 margin: 2rem 0;
                 background-color: $green;
                 padding: .5rem 1rem;
-                border: 1px solid $green;
+                border: none;
                 border-radius: .3rem;
                 color: $white;
                 font-weight: bold;
@@ -206,6 +207,16 @@ main {
                 display: inline-block;
             }
 
+        }
+    }
+
+    main {
+        .jumbotron-container {
+            .jumbotron {
+                .btn-primary:hover {
+                    background-color: $dark-green;
+                }
+            }
         }
     }
     
