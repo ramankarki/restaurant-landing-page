@@ -6,9 +6,10 @@ $dark-yellow: #f0c808;
 $light-yellow: #ffee9a;
 $light-grey: #DCDCDC;
 $dark-grey: #A9A9A9;
+$darker-grey: #707070;
 $green: #5caa0d;
 $dark-green: #438502;
-$sub-title: 1.1rem;
+$sub-title: 1.4rem;
 $sub-heading: 1.6rem;
 $normal: 1rem;
 $small: .8rem;
@@ -29,6 +30,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.mini-hr {
+    height: 1px;
+    background-color: $green;
+    border: none;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 15%;
+}
+
 header {
     width: 100%;
     background-color: white;
@@ -40,6 +51,7 @@ header {
     top: 0;
     z-index: 999;
 
+    // ----------------------- logo container -----------------------
     .logo-container {
         width: 80px;
         cursor: pointer;
@@ -49,6 +61,7 @@ header {
         }
     }
 
+    // ------------------------- navigation bar -----------------------
     nav {
         position: relative;
 
@@ -87,6 +100,7 @@ header {
 
     }
     
+    // -------------------------------- search human icon ------------------------
     .search-login-icon {
         display: none;
     }
@@ -101,10 +115,12 @@ main {
     font-size: 2.8rem;
     margin-top: 6.5rem;
     
+    // -------------- jumbotron container ----------------------
     .jumbotron-container {
         position: relative;
         z-index: 1;
 
+        // ------------------------ burger image for mobile --------------------
         .mobile-food-image {
             max-width: 200px;
             margin: auto;
@@ -115,6 +131,7 @@ main {
             }
         }
 
+        // ---------------------------- jumbotron text and button -----------------------
         .jumbotron {
             position: relative;
             width: 90%;
@@ -141,19 +158,70 @@ main {
                 color: $white;
                 font-weight: bold;
                 outline: none;
+                font-size: $normal;
             }
         }
 
+        // ----------------------- jumbotron image desktop ---------------------
         .jumbotron-image {
             display: none;
         }
 
+        // ------------------------ scroll down container inside .jumbotron-container ---------------------
         .scroll-down {
             display: none;
         }
 
+        // ------------------------- social links --------------------------
         aside {
             display: none;
+        }
+    }
+
+    // --------------------- special dish container -----------------
+    .special-dish-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        h2 {
+            font-size: $sub-heading;
+            color: $black;
+            text-align: center;
+        }
+
+        p {
+            font-size: $normal;
+            color: $darker-grey;
+            text-align: center;
+            line-height: 1.6rem;
+        }
+
+        .special-dish-card {
+            margin: 3rem;
+            h3 {
+                font-size: $sub-title;
+                color: $black;
+                text-align: center;
+                line-height: 3rem;
+            }
+
+            p {
+                text-align: center;
+                font-size: $normal;
+                color: $darker-grey;
+                line-height: 1.6rem;
+            }
+
+            .special-dish-image {
+                width: 150px;
+                margin: auto;
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10rem;
+                }
+            }
         }
     }
 
@@ -178,8 +246,24 @@ main {
                 }
 
                 .btn-primary {
-                    font-size: $sub-title;
                     margin-top: 3rem;
+                }
+            }
+        }
+
+        .special-dish-container {
+            h2 {
+                font-size: $big;
+            }
+
+            .special-dish {
+                display: flex;
+                flex-wrap: wrap;
+
+                .special-dish-card {
+                    flex: 250px;
+
+                    
                 }
             }
         }
@@ -237,7 +321,7 @@ main {
             aside {
                 display: flex;
                 flex-direction: column;
-                height: 70%;
+                height: 70vh;
                 justify-content: space-between;
                 position: absolute;
                 top: 8rem;
@@ -249,8 +333,8 @@ main {
                 font-size: $normal;
                 cursor: pointer;
             }
-
         }
+
     }
 }
 
