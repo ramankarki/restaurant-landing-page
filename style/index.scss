@@ -1,5 +1,5 @@
 $white: #fffdfd;
-$black: #04030f;
+$black: #323233;
 $dark-orange: #dd7230;
 $light-orange: #f8c38e;
 $dark-yellow: #f0c808;
@@ -7,7 +7,7 @@ $light-yellow: #ffee9a;
 $light-grey: #DCDCDC;
 $dark-grey: #A9A9A9;
 $sub-title: 1.4rem;
-$sub-heading: 2rem;
+$sub-heading: 1.6rem;
 $normal: 1rem;
 $small: .8rem;
 $big: 2.8rem;
@@ -22,6 +22,7 @@ $big: 2.8rem;
 
 body {
     max-width: 1920px;
+    height: 100vh;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -87,7 +88,23 @@ nav:hover .nav-links {
 
 main {
     font-size: 2.8rem;
-    color: #A9A9A9;
+    width: 90%;
+    margin: auto;
+    
+    .jumbotron-container {
+        .jumbotron {
+            p {
+                font-size: $normal;
+                line-height: 3rem;
+                color: $dark-grey;
+            }
+
+            h1 {
+                font-size: $sub-heading;
+                color: $black;
+            }
+        }
+    }
 }
 
 

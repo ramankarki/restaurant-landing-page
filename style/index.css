@@ -5,6 +5,7 @@
 
 body {
   max-width: 1920px;
+  height: 100vh;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -50,7 +51,15 @@ nav:hover .nav-links {
 
 main {
   font-size: 2.8rem;
-  color: #A9A9A9; }
+  width: 90%;
+  margin: auto; }
+  main .jumbotron-container .jumbotron p {
+    font-size: 1rem;
+    line-height: 3rem;
+    color: #A9A9A9; }
+  main .jumbotron-container .jumbotron h1 {
+    font-size: 1.6rem;
+    color: #323233; }
 
 @media (min-width: 992px) {
   header nav {
