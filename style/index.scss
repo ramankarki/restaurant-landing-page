@@ -35,9 +35,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 
     .logo-container {
         width: 80px;
+        cursor: pointer;
         img {
             width: 100%;
             height: auto;
@@ -79,6 +82,11 @@ header {
             }
 
         }
+
+    }
+    
+    .search-login-icon {
+        display: none;
     }
 
 }
@@ -93,10 +101,11 @@ main {
     margin: auto;
     
     .jumbotron-container {
-        margin-top: 4rem;
-
+        margin-top: 5rem;
+        
         .jumbotron {
             p {
+                margin-top: 4rem;
                 font-size: $normal;
                 color: $dark-grey;
                 margin: 1rem 0;
@@ -156,7 +165,7 @@ main {
                     font-weight: bold;
                     padding: 1rem;
                     margin: 0 1rem;
-                    color: $light-orange;
+                    color: $dark-grey;
                 }
     
                 .home {
@@ -166,7 +175,37 @@ main {
                 .nav-item:hover {
                     color: $dark-orange;
                 }
+
+                .nav-extra {
+                    display: none;
+                }
             }
+
+        }
+
+        .search-login-icon {
+            display: block;
+            display: flex;
+
+            .search-icon {
+                width: 20px;
+                margin-top: 2px;
+                margin-right: 10px;
+                filter: invert(60%);
+                cursor: pointer;
+            }
+
+            .human-icon {
+                width: 25px;
+                cursor: pointer;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                display: inline-block;
+            }
+
         }
     }
     
