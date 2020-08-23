@@ -441,6 +441,44 @@ main {
     }
 }
 
+.footer-break {
+    height: 1px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    margin: 3rem 0 .5rem 0;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+
+    .footer {
+        .footer-column {
+            margin: 3rem 0;
+            h3 {
+                color: $black;
+                text-align: center;
+                margin: 1rem 0;
+            }
+
+            p {
+                color: $darker-grey;
+                line-height: 1.8rem;
+                text-align: center;
+            }
+
+            .about-us-text {
+                margin: 1rem 0;
+            }
+        }
+    }
+    .copyright {
+        color: $darker-grey;
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+}
+
 
 @media (min-width: 576px) {
     main {
@@ -487,8 +525,12 @@ main {
             .special-menu {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, 220px);
-                grid-gap: 2rem;
+                grid-gap: 3rem 2rem;
                 justify-content: space-evenly;
+
+                .special-menu-card {
+                    margin: 0;
+                }
             }
         }
 
@@ -509,6 +551,24 @@ main {
             }
         }
 
+    }
+
+    footer {
+        .footer {
+            display: grid;
+            grid-template-columns: 300px 130px;
+            justify-content: space-evenly;
+            .footer-column {
+
+                h3 {
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                }
+            }
+        }
     }
 }
 
@@ -585,10 +645,14 @@ main {
                 color: $black;
             }
         }
-        
-
     }
 
+    footer {
+        .footer {
+            display: grid;
+            grid-template-columns: 300px 130px 140px;
+        }
+    }
 }
 
 

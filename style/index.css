@@ -283,6 +283,32 @@ main {
           main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p ~ p {
             font-weight: bold; }
 
+.footer-break {
+  height: 1px;
+  border: none;
+  background-color: lightgray;
+  margin: 3rem 0 .5rem 0; }
+
+footer {
+  width: 90%;
+  margin: auto; }
+  footer .footer .footer-column {
+    margin: 3rem 0; }
+    footer .footer .footer-column h3 {
+      color: #323233;
+      text-align: center;
+      margin: 1rem 0; }
+    footer .footer .footer-column p {
+      color: #707070;
+      line-height: 1.8rem;
+      text-align: center; }
+    footer .footer .footer-column .about-us-text {
+      margin: 1rem 0; }
+  footer .copyright {
+    color: #707070;
+    text-align: center;
+    margin: 1.5rem 0; }
+
 @media (min-width: 576px) {
   main .jumbotron-container .mobile-food-image {
     display: none; }
@@ -305,8 +331,10 @@ main {
   main .special-menu-container .special-menu {
     display: grid;
     grid-template-columns: repeat(auto-fill, 220px);
-    grid-gap: 2rem;
+    grid-gap: 3rem 2rem;
     justify-content: space-evenly; }
+    main .special-menu-container .special-menu .special-menu-card {
+      margin: 0; }
   main .special-tip-container {
     margin-top: 5rem; }
     main .special-tip-container h2 {
@@ -317,7 +345,16 @@ main {
       justify-content: space-evenly;
       flex-wrap: wrap; }
       main .special-tip-container .special-tip .special-tip-card {
-        margin: 1rem; } }
+        margin: 1rem; }
+
+  footer .footer {
+    display: grid;
+    grid-template-columns: 300px 130px;
+    justify-content: space-evenly; }
+    footer .footer .footer-column h3 {
+      text-align: left; }
+    footer .footer .footer-column p {
+      text-align: left; } }
 @media (min-width: 768px) {
   main .jumbotron-container {
     position: static;
@@ -368,7 +405,11 @@ main {
     main .special-menu-container h2 {
       font-size: 2rem;
       text-align: center;
-      color: #323233; } }
+      color: #323233; }
+
+  footer .footer {
+    display: grid;
+    grid-template-columns: 300px 130px 140px; } }
 @media (min-width: 992px) {
   main .our-master-container {
     width: 90%;
