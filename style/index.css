@@ -283,7 +283,8 @@ main {
               color: #5caa0d;
               background-color: #bdffbd; }
           main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p ~ p {
-            font-weight: bold; }
+            font-weight: bold;
+            margin-top: 1.5rem; }
 
 .footer-break {
   height: 1px;
