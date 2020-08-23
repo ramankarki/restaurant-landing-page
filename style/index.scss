@@ -375,6 +375,67 @@ main {
         }
     }
 
+
+    // ------------------- special tips and recipes container ----------------------
+    .special-tip-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        h2 {
+            font-size: $sub-heading;
+            text-align: center;
+        }
+
+        p {
+            font-size: $normal;
+            color: $darker-grey;
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        .special-tip {
+            margin-top: 3rem;
+
+            .special-tip-card {
+                width: 250px;
+                margin: 2rem auto;
+
+                .special-tip-card-img {
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: 1rem;
+                    }
+                }
+
+                .special-tip-card-text {
+                    padding: 0 1rem 1rem 1rem;
+                    h3 {
+                        font-size: $sub-title;
+                        color: $black;
+                    }
+
+                    p {
+                        font-size: $small;
+                        color: $darker-grey;
+                        text-align: left;
+                        margin-top: 1rem;
+
+                        span {
+                            padding: .5rem .7rem;
+                            border-radius: 5rem;
+                            color: $green;
+                            background-color: rgb(189, 255, 189);
+                        }
+                    }
+
+                    p ~ p {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -426,6 +487,23 @@ main {
                 justify-content: space-evenly;
             }
         }
+
+        .special-tip-container {
+            margin-top: 5rem;
+            h2 {
+                font-size: $big;
+            }
+    
+            .special-tip {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                .special-tip-card {
+                    margin: 1rem ;
+                }
+            }
+        }
+
     }
 }
 

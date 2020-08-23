@@ -241,6 +241,44 @@ main {
       main .testimonial-container .testimonial .testimonial-text .testimonial-work {
         font-size: 0.8rem;
         color: #707070; }
+  main .special-tip-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem; }
+    main .special-tip-container h2 {
+      font-size: 1.6rem;
+      text-align: center; }
+    main .special-tip-container p {
+      font-size: 1rem;
+      color: #707070;
+      text-align: center;
+      line-height: 2rem; }
+    main .special-tip-container .special-tip {
+      margin-top: 3rem; }
+      main .special-tip-container .special-tip .special-tip-card {
+        width: 250px;
+        margin: 2rem auto; }
+        main .special-tip-container .special-tip .special-tip-card .special-tip-card-img img {
+          width: 100%;
+          height: auto;
+          border-radius: 1rem; }
+        main .special-tip-container .special-tip .special-tip-card .special-tip-card-text {
+          padding: 0 1rem 1rem 1rem; }
+          main .special-tip-container .special-tip .special-tip-card .special-tip-card-text h3 {
+            font-size: 1.4rem;
+            color: #323233; }
+          main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p {
+            font-size: 0.8rem;
+            color: #707070;
+            text-align: left;
+            margin-top: 1rem; }
+            main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p span {
+              padding: .5rem .7rem;
+              border-radius: 5rem;
+              color: #5caa0d;
+              background-color: #bdffbd; }
+          main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p ~ p {
+            font-weight: bold; }
 
 @media (min-width: 576px) {
   main .jumbotron-container .mobile-food-image {
@@ -264,7 +302,17 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, 220px);
     grid-gap: 2rem;
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  main .special-tip-container {
+    margin-top: 5rem; }
+    main .special-tip-container h2 {
+      font-size: 2rem; }
+    main .special-tip-container .special-tip {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap; }
+      main .special-tip-container .special-tip .special-tip-card {
+        margin: 1rem; } }
 @media (min-width: 768px) {
   main .jumbotron-container {
     position: static;
