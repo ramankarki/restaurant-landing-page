@@ -118,7 +118,7 @@ main {
       font-size: 1rem;
       color: #707070;
       text-align: center;
-      line-height: 1.8rem; }
+      line-height: 2rem; }
     main .special-dish-container .special-dish-card {
       margin: 3rem; }
       main .special-dish-container .special-dish-card h3 {
@@ -130,7 +130,7 @@ main {
         text-align: center;
         font-size: 1rem;
         color: #707070;
-        line-height: 1.8rem; }
+        line-height: 2rem; }
       main .special-dish-container .special-dish-card .special-dish-image {
         width: 150px;
         margin: auto; }
@@ -171,7 +171,7 @@ main {
       font-size: 1rem;
       text-align: center;
       color: #707070;
-      line-height: 1.6rem; }
+      line-height: 2rem; }
     main .special-menu-container .special-menu {
       margin-top: 3rem; }
       main .special-menu-container .special-menu .special-menu-card {
@@ -302,7 +302,7 @@ footer {
       margin: 1rem 0; }
     footer .footer .footer-column p {
       color: #707070;
-      line-height: 1.8rem;
+      line-height: 2rem;
       text-align: center; }
     footer .footer .footer-column .about-us-text {
       margin: 1rem 0; }
