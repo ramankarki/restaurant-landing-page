@@ -174,12 +174,11 @@ main {
       margin-top: 3rem; }
       main .special-menu-container .special-menu .special-menu-card {
         width: 220px;
-        margin: 2rem auto;
-        box-shadow: 0 3px 19px -9px black; }
+        margin: 2rem auto; }
         main .special-menu-container .special-menu .special-menu-card .special-menu-img img {
           width: 100%;
           height: auto;
-          border-radius: .5rem; }
+          border-radius: 1rem; }
         main .special-menu-container .special-menu .special-menu-card .special-menu-card-text {
           padding: 1rem; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text h3 {
