@@ -282,13 +282,13 @@ main {
             .special-menu-card {
                 width: 220px;
                 margin: 2rem auto;
-                box-shadow: 0 7px 15px -9px black;
+                box-shadow: 0 3px 19px -9px black;
 
                 .special-menu-img {
                     img {
                         width: 100%;
                         height: auto;
-                        border-radius: 1rem;
+                        border-radius: .5rem;
                     }
                 }
 
@@ -315,6 +315,7 @@ main {
                             background-color: white;
                             color: $green;
                             border: 1px solid $green;
+                            font-weight: normal;
                         }
 
                         .btn-primary:hover {
@@ -373,7 +374,7 @@ main {
         .special-menu-container {
             .special-menu {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+                grid-template-columns: repeat(auto-fill, 220px);
                 grid-gap: 2rem;
                 justify-content: space-evenly;
             }

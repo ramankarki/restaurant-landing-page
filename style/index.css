@@ -175,11 +175,11 @@ main {
       main .special-menu-container .special-menu .special-menu-card {
         width: 220px;
         margin: 2rem auto;
-        box-shadow: 0 7px 15px -9px black; }
+        box-shadow: 0 3px 19px -9px black; }
         main .special-menu-container .special-menu .special-menu-card .special-menu-img img {
           width: 100%;
           height: auto;
-          border-radius: 1rem; }
+          border-radius: .5rem; }
         main .special-menu-container .special-menu .special-menu-card .special-menu-card-text {
           padding: 1rem; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text h3 {
@@ -205,7 +205,8 @@ main {
               margin-top: 0;
               background-color: white;
               color: #5caa0d;
-              border: 1px solid #5caa0d; }
+              border: 1px solid #5caa0d;
+              font-weight: normal; }
             main .special-menu-container .special-menu .special-menu-card .special-menu-card-text .order-price .btn-primary:hover {
               background-color: #5caa0d;
               color: white; }
@@ -230,7 +231,7 @@ main {
       flex: 250px; }
   main .special-menu-container .special-menu {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-template-columns: repeat(auto-fill, 220px);
     grid-gap: 2rem;
     justify-content: space-evenly; } }
 @media (min-width: 768px) {
