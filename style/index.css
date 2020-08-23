@@ -306,6 +306,11 @@ footer {
       text-align: center; }
     footer .footer .footer-column .about-us-text {
       margin: 1rem 0; }
+    footer .footer .footer-column .location span img,
+    footer .footer .footer-column .phone span img,
+    footer .footer .footer-column .email span img {
+      width: 15px;
+      height: auto; }
   footer .copyright {
     color: #707070;
     text-align: center;

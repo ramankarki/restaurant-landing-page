@@ -472,6 +472,17 @@ footer {
             .about-us-text {
                 margin: 1rem 0;
             }
+
+            .location,
+            .phone,
+            .email {
+                span {
+                    img {
+                        width: 15px;
+                        height: auto;
+                    }
+                }
+            }
         }
     }
     .copyright {
