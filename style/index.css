@@ -210,6 +210,37 @@ main {
             main .special-menu-container .special-menu .special-menu-card .special-menu-card-text .order-price .btn-primary:hover {
               background-color: #5caa0d;
               color: white; }
+  main .testimonial-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem; }
+    main .testimonial-container .testimonial .testimonial-image {
+      max-width: 500px;
+      margin: auto; }
+      main .testimonial-container .testimonial .testimonial-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem; }
+    main .testimonial-container .testimonial .testimonial-text {
+      max-width: 500px;
+      margin: auto; }
+      main .testimonial-container .testimonial .testimonial-text h2 {
+        font-size: 1.6rem;
+        color: #323233;
+        margin-top: 2rem;
+        text-align: center; }
+      main .testimonial-container .testimonial .testimonial-text p {
+        font-size: 1rem;
+        color: #707070;
+        line-height: 2rem;
+        text-align: center; }
+      main .testimonial-container .testimonial .testimonial-text .testimonial-name {
+        font-size: 1.4rem;
+        color: #dd7230;
+        margin-top: 2rem; }
+      main .testimonial-container .testimonial .testimonial-text .testimonial-work {
+        font-size: 0.8rem;
+        color: #707070; }
 
 @media (min-width: 576px) {
   main .jumbotron-container .mobile-food-image {
@@ -303,6 +334,18 @@ main {
       main .our-master-container .our-master .dishes-text h2 {
         font-size: 2rem; }
       main .our-master-container .our-master .dishes-text p {
+        text-align: left; }
+  main .testimonial-container .testimonial {
+    display: flex;
+    justify-content: space-evenly; }
+    main .testimonial-container .testimonial .testimonial-image {
+      order: 1;
+      margin: 2rem; }
+    main .testimonial-container .testimonial .testimonial-text {
+      margin: 2rem; }
+      main .testimonial-container .testimonial .testimonial-text h2 {
+        font-size: 2rem; }
+      main .testimonial-container .testimonial .testimonial-text p {
         text-align: left; } }
 @media (min-width: 1200px) {
   header {
