@@ -151,7 +151,8 @@ main {
         font-size: 1.6rem;
         text-align: center;
         line-height: 2.2rem;
-        margin: 2rem 0 0 0; }
+        margin: 2rem 0 0 0;
+        color: #323233; }
       main .our-master-container .dishes-text p {
         font-size: 1rem;
         color: #707070;
@@ -164,7 +165,8 @@ main {
     margin-top: 5rem; }
     main .special-menu-container h2 {
       font-size: 1.6rem;
-      text-align: center; }
+      text-align: center;
+      color: #323233; }
     main .special-menu-container p {
       font-size: 1rem;
       text-align: center;
@@ -182,7 +184,8 @@ main {
         main .special-menu-container .special-menu .special-menu-card .special-menu-card-text {
           padding: 1rem; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text h3 {
-            font-size: 1.4rem; }
+            font-size: 1.4rem;
+            color: #323233; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text .order-price {
             margin-top: 1.5rem;
             display: flex;
@@ -246,7 +249,8 @@ main {
     margin-top: 5rem; }
     main .special-tip-container h2 {
       font-size: 1.6rem;
-      text-align: center; }
+      text-align: center;
+      color: #323233; }
     main .special-tip-container p {
       font-size: 1rem;
       color: #707070;
@@ -291,7 +295,8 @@ main {
   main .jumbotron-container .jumbotron .btn-primary {
     margin-top: 3rem; }
   main .special-dish-container h2 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #323233; }
   main .special-dish-container .special-dish {
     display: flex;
     flex-wrap: wrap; }
@@ -305,7 +310,8 @@ main {
   main .special-tip-container {
     margin-top: 5rem; }
     main .special-tip-container h2 {
-      font-size: 2rem; }
+      font-size: 2rem;
+      color: #323233; }
     main .special-tip-container .special-tip {
       display: flex;
       justify-content: space-evenly;
@@ -361,7 +367,8 @@ main {
     margin-top: 5rem; }
     main .special-menu-container h2 {
       font-size: 2rem;
-      text-align: center; } }
+      text-align: center;
+      color: #323233; } }
 @media (min-width: 992px) {
   main .our-master-container {
     width: 90%;
@@ -379,7 +386,8 @@ main {
         max-width: 500px;
         margin: 2rem; }
       main .our-master-container .our-master .dishes-text h2 {
-        font-size: 2rem; }
+        font-size: 2rem;
+        color: #323233; }
       main .our-master-container .our-master .dishes-text p {
         text-align: left; }
   main .testimonial-container .testimonial {
@@ -391,7 +399,8 @@ main {
     main .testimonial-container .testimonial .testimonial-text {
       margin: 2rem; }
       main .testimonial-container .testimonial .testimonial-text h2 {
-        font-size: 2rem; }
+        font-size: 2rem;
+        color: #323233; }
       main .testimonial-container .testimonial .testimonial-text p {
         text-align: left; } }
 @media (min-width: 1200px) {
