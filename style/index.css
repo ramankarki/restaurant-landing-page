@@ -122,7 +122,7 @@ main {
     main .special-dish-container .special-dish-card {
       margin: 3rem; }
       main .special-dish-container .special-dish-card h3 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         color: #323233;
         text-align: center;
         line-height: 3rem; }
@@ -185,7 +185,7 @@ main {
         main .special-menu-container .special-menu .special-menu-card .special-menu-card-text {
           padding: 1rem; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text h3 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: #323233; }
           main .special-menu-container .special-menu .special-menu-card .special-menu-card-text .order-price {
             margin-top: 1.5rem;
@@ -238,7 +238,7 @@ main {
         line-height: 2rem;
         text-align: center; }
       main .testimonial-container .testimonial .testimonial-text .testimonial-name {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         color: #dd7230;
         margin-top: 2rem; }
       main .testimonial-container .testimonial .testimonial-text .testimonial-work {
@@ -260,7 +260,7 @@ main {
     main .special-tip-container .special-tip {
       margin-top: 3rem; }
       main .special-tip-container .special-tip .special-tip-card {
-        width: 250px;
+        width: 260px;
         margin: 2rem auto;
         box-shadow: 0 5px 25px -20px; }
         main .special-tip-container .special-tip .special-tip-card .special-tip-card-img img {
@@ -270,7 +270,7 @@ main {
         main .special-tip-container .special-tip .special-tip-card .special-tip-card-text {
           padding: 0 1rem 1rem 1rem; }
           main .special-tip-container .special-tip .special-tip-card .special-tip-card-text h3 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: #323233; }
           main .special-tip-container .special-tip .special-tip-card .special-tip-card-text p {
             font-size: 0.8rem;
@@ -321,7 +321,7 @@ footer {
   main .jumbotron-container .mobile-food-image {
     display: none; }
   main .jumbotron-container .jumbotron p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 6rem; }
   main .jumbotron-container .jumbotron h1 {
     font-size: 2rem;
@@ -357,7 +357,7 @@ footer {
 
   footer .footer {
     display: grid;
-    grid-template-columns: 300px 130px;
+    grid-template-columns: 330px 160px;
     justify-content: space-evenly; }
     footer .footer .footer-column h3 {
       text-align: left; }
@@ -417,7 +417,7 @@ footer {
 
   footer .footer {
     display: grid;
-    grid-template-columns: 300px 130px 140px; } }
+    grid-template-columns: 330px 160px 180px; } }
 @media (min-width: 992px) {
   main .our-master-container {
     width: 90%;
